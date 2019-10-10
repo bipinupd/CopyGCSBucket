@@ -1,4 +1,4 @@
-This is a solution to copy the content of a bucket to other buckets. 
+This is a solution to copy the content of a bucket to other buckets. You don't need to do all of these steps. The `deploy.sh` creates notification & all required stuff.
 
 Once the object landed to a bucket (event : `OBJECT_FINALIZE`), GCS automatically sends an event a pub/sub
 
